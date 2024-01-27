@@ -1,0 +1,52 @@
+
+Student 1: Waleed Mohamed Hesham
+Student 2: 
+
+Q1:
+
+Number of words in the dataset (vocabulary size)
+
+
+Q2:
+
+The dimensionality of each vector representing word embedding 
+
+
+Predicted Country:
+Egypt
+
+Predicted Similarity:
+0.7626820802688599
+
+Q3:
+
+Yes
+
+
+Q4:
+
+Yes, because the relationship between `Athens` and `Greece` (capital city of the country) is the same relation
+between `Cairo` and `Egypt`. The similarity printed above is the similarity between relationships
+`CAPITAL(Athens, Greece)` and `CAPITAL(Cairo, Egypt)` and it approaches 1 which makes sense. 
+
+
+Computed Accuracy:
+0.9192082407594425
+
+Q5:
+
+Yes, except the word `sad`. It is very close to words of opposite meaning like `joyful` and `happy`.
+However, it may be considered make sense as the words `sad`, `joyful` and `happy` share the similarity of human feelings.
+In addition, the plot is applied after PCA and this is a another cause for the `sad` being close to `joyful` and `happy`.
+Other than this, other similar words tends to be close in the plot.
+
+
+Q6:
+
+Similar words have similar embeddings which implies being close to each other in the plot.
+Words like `gas`, `oil` and `petroleum` are similar and they are very close in the plot.
+Same thing for `country` and `continent`. And for `city`, `town` and `village`.
+Also similar clusters are close to each other. The `country`, `continent` cluster are similar to the `city`, `town`, `village`
+and that's why the 2 clusters are close to each other. The human feeling words like `sad`, `joyful`, `happy` are close to each other.
+Another notice is that different clusters tends to be far away from each others.
+
